@@ -40,7 +40,7 @@ This project introduces Bash shell scripting on a local Ubuntu environment (WSL)
   - Permissions: `-rw-r--r--` indicates read/write for owner, read for group/others (no execute).
   - **Screenshot**: File creation:
 
-    ![File Creation](./img/file-creation.1.png)
+    ![File Creation](/img/file-creation.1.png)
 
 ### Executing the Script
 - **Add Execute Permission**:
@@ -49,28 +49,28 @@ This project introduces Bash shell scripting on a local Ubuntu environment (WSL)
   - Result: Permissions change to `-rwxr--r--`.
   - **Screenshot**: Permission update:
 
-    ![Permission Update](./img/permission-updated.2.png)
+    ![Permission Update](/img/permission-updated.2.png)
     
 - **Run Script**:
   - Command: `./my_first_shell_script.sh`
   - Purpose: `./` executes the script in the current directory; `sudo` prompts for a password for `useradd`.
   - **Screenshot**: Script run:
 
-    ![Script Run](./img/script-run.3.png)
+    ![Script Run](/img/script-run.3.png)
 
 - **Verify Folders**:
   - Command: `ls -l`
   - Purpose: Confirms `Folder1`, `Folder2`, `Folder3` are created.
   - **Screenshot**: Folders created:
 
-    ![Folders Created](./img/Folders-created.4.png)
+    ![Folders Created](/img/Folders-created.4.png)
 
 - **Verify Users**:
   - Command: `id user1`
   - Purpose: `id` displays user details (e.g., `uid=1000(user1) gid=1000(user1) groups=1000(user1)`); note WSL may require `sudo passwd user1` for full functionality.
   - **Screenshot**: User1 created:
 
-    ![User1 Created](./img/user1-created.5.png)
+    ![User1 Created](/img/user1-created.5.png)
 
 ### Exploring Variables
 - **Edit Script**:
@@ -98,7 +98,7 @@ This project introduces Bash shell scripting on a local Ubuntu environment (WSL)
   - Result: Outputs “User name: John”.
   - **Screenshot**: Variable output:
 
-    ![Variable Output](./img/Variable-output.7.png)
+    ![Variable Output](/img/Variable-output.7.png)
 
 
 ## Tools Used
